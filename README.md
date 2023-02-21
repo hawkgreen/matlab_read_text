@@ -1,0 +1,3 @@
+# matlab_read_text
+matlab如何读取text文件
+可以从帮助搜索textscan查看
