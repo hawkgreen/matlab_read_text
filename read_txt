@@ -1,0 +1,12 @@
+fileID=fopen('C:\sim\sig.txt','r');
+C=textscan(fileID,'%f');
+fclose(fileID);
+sig=C{1};
+figure;
+plot(sig);
+%sig.txt:
+%1
+%2
+%3
+%4
+%5
